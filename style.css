@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Testimonial Slider Pagination */
+
+.swiper-pagination-bullet {
+    background: #101011 !important;
+    opacity: .20 !important;
+    width: 12px !important;
+    height: 12px !important;
+    margin: 0 6px !important;
+}
+.swiper-pagination-bullet-active {
+  background: #087A6A !important;
+  opacity: 1 !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin: -2px 0 !important;
+}
+
+
+
+/* CountUp */
+
+@property --num-users {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @property --num-reg-users {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+
+  @property --num-percent {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @keyframes counter {
+    from {
+        --num-users: 0;
+        --num-reg-users: 0;
+        --num-percent:0;
+    }
+    to {
+        --num-users: 95;
+        --num-reg-users: 4;
+        --num-percent:100;
+    }
+  }

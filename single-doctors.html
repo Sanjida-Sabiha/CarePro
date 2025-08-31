@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="assets/img/fav-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarePro || Single Doctors Page</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+<body>
+    <!-- Header Area Start Here -->
+    <header>
+        <div class="container">
+            <nav class="my-5">
+                <div class="flex justify-between items-center">
+                    <div class="flex justify-between items-center gap-[42px] w-595">
+                        <div>
+                            <a href="index.html">
+                                <img class="md:w-full w-32" src="assets/img/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="hidden lg:block">
+                            <ul class="flex justify-between items-center gap-9">
+                                <li class=" text-secondaryColor font-Satoshi font-normal text-base leading-7 hover:text-footerBg hover:transition hover:ease-in-out hover:duration-500"><a href="index.html">Home</a></li>
+                                <li class=" text-secondaryColor font-Satoshi font-normal text-base leading-7 hover:text-footerBg hover:transition hover:ease-in-out hover:duration-500"><a href="about.html">About Us</a></li>
+                                <li class=" text-secondaryColor font-Satoshi font-normal text-base leading-7 hover:text-footerBg hover:transition hover:ease-in-out hover:duration-500"><a href="services.html">Services</a></li>
+                                <li class=" text-secondaryColor font-Satoshi font-normal text-base leading-7 hover:text-footerBg hover:transition hover:ease-in-out hover:duration-500"><a href="doctors.html">Doctors</a></li>
+                                <li class=" text-secondaryColor font-Satoshi font-normal text-base leading-7 hover:text-footerBg hover:transition hover:ease-in-out hover:duration-500"><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Menu button for mobile -->
+                    <div class="flex items-center lg:hidden md:block">
+                        <button id="mobileMenuButton" class="focus:outline-none">
+                            <svg id="menuIcon" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="black">
+                                <path id="menuOpenIcon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                                <path id="menuCloseIcon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="lg:block hidden">
+                        <a href="consultation.html" class="block bg-btnBg rounded-10 py-3 px-6 font-Satoshi font-medium text-base leading-7 hover:bg-hoverBg hover:transition hover:ease-in-out hover:duration-500">Book an appointment</a>
+                    </div>    
+                </div>
+                <!-- Mobile Menu -->
+                <div id="mobileMenu" class="hidden rounded-20 mx-5 mt-10 transition-height transition-all duration-1000 ease-in-out overflow-hidden absolute inset-x-0 top-7 z-20 bg-white">
+                    <div class="py-6 space-y-1">
+                        <ul class="dropdown flex flex-col">
+                            <li class="px-5 text-primaryColor font-Satoshi font-medium text-lg leading-8 hover:text-footerBg hover:font-semibold hover:transition hover:ease-in-out hover:duration-500"><a href="index.html">Home</a></li>
+                            <li class="px-5 text-primaryColor font-Satoshi font-medium text-lg leading-8 hover:text-footerBg hover:font-semibold hover:transition hover:ease-in-out hover:duration-500 pt-2"><a href="about.html">About Us</a></li>
+                            <li class="px-5 text-primaryColor font-Satoshi font-medium text-lg leading-8 hover:text-footerBg hover:font-semibold hover:transition hover:ease-in-out hover:duration-500 pt-2"><a href="services.html">Services</a></li>
+                            <li class="px-5 text-primaryColor font-Satoshi font-medium text-lg leading-8 hover:text-footerBg hover:font-semibold hover:transition hover:ease-in-out hover:duration-500 pt-2"><a href="doctors.html">Doctors</a></li>
+                            <li class="pl-5 text-primaryColor font-Satoshi font-medium text-lg leading-8 hover:text-footerBg hover:font-semibold hover:transition hover:ease-in-out hover:duration-500 pt-2"><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header Area End Here -->
+    
+    <!-- Doctors Info Area Start Here -->
+    <section class="mx-5">
+        <div class="flex xl:flex-row flex-col justify-center gap-5">
+            <div class="bg-cardBg1 rounded-20 xl:py-[206px] lg:py-20 py-7 lg:px-14 px-7 xl:w-[730px] w-full">
+                <div
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+                >
+                    <h4 class="font-Satoshi font-bold lg:text-60xl text-[32px] leading-42 lg:leading-70 text-white">Dr. Joe Root</h4>
+                    <span class="pt-5 text-white font-Satoshi font-medium text-lg leading-8">Eye- Specialist</span>
+                    <p class="text-white font-Satoshi font-medium text-lg leading-8 pt-6 text-opacity-80">Dr. Joe Root is a board-certified Ophthalmologist specializing in the diagnosis, treatment, and management of various eye conditions.</p>
+                    <div class="lg:mt-12 mt-7">
+                        <a href="consultation.html" class="md:inline-block block text-center bg-btnBg rounded-10 py-4 px-9 font-Satoshi font-medium text-lg leading-8 hover:bg-hoverBg hover:transition hover:ease-in-out hover:duration-500">Book an appointment</a>
+                    </div> 
+                </div>
+            </div>
+            <img
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-offset="20"
+            data-aos-once="true"
+            class="xl:w-[730px] w-full" src="assets/img/doctors/doctor-1.png" alt="">
+        </div>
+    </section>
+    <!-- Doctors Info Area End Here -->
+
+    <!-- About Area Start Here -->
+    <section class="lg:mt-36 mt-16">
+        <div class="container">
+            <div class="flex lg:flex-row flex-col justify-between items-start lg:gap-[76px] gap-10">
+                <div
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+                
+                class="bg-cardBg p-8 rounded-20 lg:w-580 w-full">
+                    <h4 class="text-primaryColor font-Satoshi font-bold text-24xl leading-36">Contact Information</h4>
+                    <hr class="my-8 border border-[#BDB9B6]"/>
+                    <div>
+                        <a href="#" class="flex items-center gap-2 font-Satoshi text-primaryColor font-medium text-lg leading-8">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.47044 2.00173L6.49706 2.00344C7.02095 2.04687 7.47597 2.30722 7.89133 2.71305C8.68068 3.48398 10.3757 5.73367 10.5036 6.3459C10.6453 7.02891 10.4938 7.47252 10.0424 8.25724L9.93299 8.45064C9.72584 8.82898 9.69417 8.98521 9.75831 9.16409C10.7439 11.5763 12.4259 13.258 14.8106 14.232C15.0364 14.3138 15.2069 14.2669 15.6842 13.9931L15.9332 13.8522C16.6042 13.4842 17.0294 13.3679 17.6565 13.4985C18.2666 13.6264 20.5176 15.3224 21.2873 16.1108C21.6926 16.5257 21.9535 16.9816 21.999 17.5399C22.0469 18.8972 20.3908 20.8082 19.3805 21.3828C18.2317 22.2046 16.7737 22.191 15.139 21.4301C10.8641 19.6513 4.325 13.1539 2.58238 8.88432L2.47807 8.64549C1.81637 7.06399 1.83071 5.69766 2.58898 4.66758C3.28088 3.52176 5.14635 1.94049 6.47044 2.00173ZM6.38998 3.46396L6.30182 3.46848C5.62222 3.55877 4.25938 4.73206 3.80553 5.47833L3.72712 5.59501C3.33614 6.23204 3.38145 7.10686 3.9258 8.30469L4.02983 8.54821C5.78535 12.4882 11.8637 18.4822 15.7287 20.0911L15.9416 20.1858C17.0598 20.6598 17.9064 20.6388 18.5917 20.1528L18.6424 20.1202C18.8545 19.9729 19.3435 19.5285 19.7202 19.0938C20.2493 18.4833 20.5489 17.9239 20.5393 17.6262C20.5287 17.4988 20.4304 17.3271 20.2411 17.1332C19.6689 16.5472 17.5877 14.9791 17.3577 14.9309C17.1402 14.8856 16.9617 14.9465 16.4736 15.2273L16.228 15.3652C15.5088 15.7531 15.0018 15.8573 14.2855 15.5973C11.5095 14.4643 9.53868 12.4938 8.39364 9.6898C8.12242 8.94009 8.26842 8.40967 8.74007 7.58763L8.85244 7.38992C9.0667 7.00304 9.11205 6.8389 9.07168 6.64419C9.02334 6.41293 7.45625 4.333 6.86944 3.75987C6.67512 3.57002 6.50438 3.47232 6.37659 3.46173L6.38998 3.46396Z" fill="#087A6A"/>
+                            </svg>
+                            +1 (208) 581-3063
+                        </a>
+                        <a href="#" class="mt-4 flex items-center gap-3 font-Satoshi text-primaryColor font-medium text-lg leading-8">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5253 4.75032e-05L5.45618 0C2.28665 0 0 2.56151 0 5.85897V12.141C0 15.4385 2.28665 18 5.45618 18H14.5168C16.0392 17.9829 17.4802 17.3421 18.5126 16.2266C19.5449 15.111 20.0786 13.6183 19.9893 12.0959L19.9906 5.85897C20.0786 4.38171 19.5449 2.88895 18.5126 1.77344C17.4802 0.657936 16.0392 0.0170508 14.5253 4.75032e-05ZM5.45618 1.52843L14.5084 1.52838C15.6073 1.54072 16.6532 2.00592 17.4026 2.81562C18.152 3.62533 18.5393 4.70887 18.4745 5.81389L18.4732 12.141C18.5393 13.2911 18.152 14.3747 17.4026 15.1844C16.6532 15.9941 15.6073 16.4593 14.5084 16.4716L5.45618 16.4716C3.16279 16.4716 1.51744 14.6284 1.51744 12.141V5.85897C1.51744 3.37155 3.16279 1.52843 5.45618 1.52843ZM16.0237 5.63837C15.7618 5.30886 15.2844 5.25556 14.9572 5.5193L10.8579 8.82425L10.7404 8.90682C10.2571 9.20955 9.62242 9.18159 9.15945 8.81813L5.03021 5.51732L4.93727 5.45361C4.617 5.26728 4.20105 5.34031 3.96425 5.64086C3.70376 5.97146 3.75868 6.45217 4.0869 6.71454L8.22137 10.0195L8.38268 10.1375C9.42273 10.8459 10.801 10.8067 11.7985 10.0236L15.9055 6.71255L15.9879 6.63552C16.2396 6.36262 16.2617 5.93792 16.0237 5.63837Z" fill="#087A6A"/>
+                            </svg>
+                            joe-root@example.com
+                        </a>
+                    </div>
+                </div>
+                <div
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+                
+                class="lg:w-634 w-full">
+                    <h4 class="font-Satoshi font-bold lg:text-60xl text-[32px] leading-42 lg:leading-70 text-primaryColor"><span class="text-spanColor">About </span>Dr. Joe Root</h4>
+                    <p class="pt-4 font-Satoshi text-secondaryColor font-normal text-lg leading-8">Dr. Joe Root is a board-certified Ophthalmologist specializing in the diagnosis, treatment, and management of various eye conditions. With over 15 years of experience, Dr. Root is dedicated to providing comprehensive eye care using advanced medical and surgical techniques. His expertise ranges from routine eye examinations to complex surgeries, ensuring optimal vision health for his patients.
+                        <br/>
+                        <br/>
+                        Dr. Root is passionate about educating his patients on eye health, offering personalized treatment plans, and staying updated with the latest innovations in ophthalmology. His patient-first approach emphasizes comfort, trust, and exceptional outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Area End Here -->
+
+    <!-- Specialize Area Start Here -->
+    <section class="lg:mt-36 mt-16">
+        <div class="container">
+            <div
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="20"
+            data-aos-once="true"
+            
+            >
+                <h4 class="font-Satoshi font-bold md:text-60xl text-[32px] leading-42 md:leading-70 text-primaryColor">Specializations</h4>
+            </div>
+            <div
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="20"
+            data-aos-once="true"
+            class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:mt-16 mt-7">
+                <div class="bg-white md:py-11 py-5 lg:px-8 px-5 rounded-20 border border-borderColor">
+                    <span class="font-Satoshi font-bold text-xl leading-8 bg-btnBg rounded-100 flex justify-center items-center w-[74px] h-[74px]">1</span>
+                    <h4 class="md:pt-8 pt-3 text-primaryColor font-Satoshi font-bold text-24xl leading-36">Cataract Surgery</h4>
+                    <p class="text-secondaryColor pt-4 font-Satoshi font-normal text-base leading-7">Expertise in both traditional and laser-assisted cataract surgery to restore clear vision.</p>
+                </div>
+                <div class="bg-white md:py-11 py-5 lg:px-8 px-5 rounded-20 border border-borderColor">
+                    <span class="font-Satoshi font-bold text-xl leading-8 bg-btnBg rounded-100 flex justify-center items-center w-[74px] h-[74px]">2</span>
+                    <h4 class="md:pt-8 pt-3 text-primaryColor font-Satoshi font-bold text-24xl leading-36">LASIK and Refractive Surgery</h4>
+                    <p class="text-secondaryColor pt-4 font-Satoshi font-normal text-base leading-7">Offering cutting-edge solutions to correct refractive errors like myopia, hyperopia.</p>
+                </div>
+                <div class="bg-white md:py-11 py-5 lg:px-8 px-5 rounded-20 border border-borderColor">
+                    <span class="font-Satoshi font-bold text-xl leading-8 bg-btnBg rounded-100 flex justify-center items-center w-[74px] h-[74px]">3</span>
+                    <h4 class="md:pt-8 pt-3 text-primaryColor font-Satoshi font-bold text-24xl leading-36">Glaucoma Management</h4>
+                    <p class="text-secondaryColor pt-4 font-Satoshi font-normal text-base leading-7">Comprehensive treatment options for glaucoma to prevent further damage to the optic nerve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Specialize Area End Here -->
+
+    <!-- Education Area Start Here -->
+    <section class="lg:mt-36 mt-16 bg-cardBg mx-5 rounded-20">
+        <div class="container">
+            <div class="lg:py-32 py-5">
+                <div
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+                class="text-center">
+                    <h4 class="font-Satoshi font-bold md:text-60xl text-[32px] leading-42 md:leading-70 text-primaryColor">Education and <span class="text-spanColor">Certifications</span></h4>
+                </div>
+                <div
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+                class="grid md:grid-cols-2 grid-cols-1 gap-5 lg:mt-20 mt-7">
+                    <div class="bg-white md:py-11 py-5 lg:px-8 px-5 rounded-20 text-center">
+                        <span class="mx-auto font-Satoshi font-bold text-xl leading-8 bg-btnBg rounded-100 flex justify-center items-center w-[74px] h-[74px]"><img src="assets/img/hat.svg" alt=""></span>
+                        <h4 class="md:pt-8 pt-3 text-primaryColor font-Satoshi font-bold text-24xl leading-36">M.D. - Ophthalmology</h4>
+                        <p class="text-secondaryColor pt-4 font-Satoshi font-normal text-lg leading-8">Harvard Medical School, Boston, MA</p>
+                    </div>
+                    <div class="bg-white md:py-11 py-5 lg:px-8 px-5 rounded-20 text-center">
+                        <span class="mx-auto font-Satoshi font-bold text-xl leading-8 bg-btnBg rounded-100 flex justify-center items-center w-[74px] h-[74px]"><img src="assets/img/hat.svg" alt=""></span>
+                        <h4 class="md:pt-8 pt-3 text-primaryColor font-Satoshi font-bold text-24xl leading-36">Residency in Ophthalmology</h4>
+                        <p class="text-secondaryColor pt-4 font-Satoshi font-normal text-lg leading-8">Johns Hopkins Wilmer Eye Institute, Baltimore, MD</p>
+                    </div>
+                    <div class="bg-white md:py-11 py-5 lg:px-8 px-5 rounded-20 text-center">
+                        <span class="mx-auto font-Satoshi font-bold text-xl leading-8 bg-btnBg rounded-100 flex justify-center items-center w-[74px] h-[74px]"><img src="assets/img/hat.svg" alt=""></span>
+                        <h4 class="md:pt-8 pt-3 text-primaryColor font-Satoshi font-bold text-24xl leading-36">Fellowship in Cornea and Refractive Surgery</h4>
+                        <p class="text-secondaryColor pt-4 font-Satoshi font-normal text-lg leading-8">Bascom Palmer Eye Institute, Miami, FL</p>
+                    </div>
+                    <div class="bg-white md:py-11 py-5 lg:px-8 px-5 rounded-20 text-center">
+                        <span class="mx-auto font-Satoshi font-bold text-xl leading-8 bg-btnBg rounded-100 flex justify-center items-center w-[74px] h-[74px]"><img src="assets/img/hat.svg" alt=""></span>
+                        <h4 class="md:pt-8 pt-3 text-primaryColor font-Satoshi font-bold text-24xl leading-36">Board Certification</h4>
+                        <p class="text-secondaryColor pt-4 font-Satoshi font-normal text-lg leading-8">American Board of Ophthalmology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education Area End Here -->
+
+    <!-- Success Area Start Here -->
+    <section class="lg:mt-36 mt-16">
+        <div class="container">
+            <div
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="20"
+            data-aos-once="true"
+            class="">
+                <h4 class="font-Satoshi font-bold lg:text-60xl text-[32px] leading-42 lg:leading-70 text-primaryColor">Professional <span class="text-spanColor">Memberships</span></h4>
+            </div>
+            <div
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="20"
+            data-aos-once="true"
+            class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:mt-16 mt-7">
+                <div class="bg-cardBg1 py-9 px-6 rounded-20">
+                    <h4 class=" text-white font-Satoshi font-bold text-24xl leading-36">American Academy of Ophthalmology (AAO)</h4> 
+                </div>
+                <div class="bg-btnBg py-9 px-6 rounded-20">
+                    <h4 class=" text-primaryColor font-Satoshi font-bold text-24xl leading-36">American Society of Cataract and Refractive Surgery (ASCRS)</h4> 
+                </div>
+                <div class="bg-cardBg py-9 px-6 rounded-20">
+                    <h4 class=" text-primaryColor font-Satoshi font-bold text-24xl leading-36">International Society of Refractive Surgery (ISRS)</h4> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Success Area End Here -->
+
+     <!-- Join Team Area Start Here -->
+    <section class="bg-cardBg mx-5 rounded-20 lg:mt-36 md:mt-16 mt-7">
+        <div class="container">
+            <div class="lg:py-28 py-5 flex xl:flex-row flex-col justify-between xl:items-center gap-11">
+                <img
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+                src="assets/img/aboutPage/doctors-banner.png" alt="">
+                <div
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+                >
+                    <h4 class="md:max-w-580 w-full font-Satoshi font-bold lg:text-60xl text-[32px] leading-42 lg:leading-70 text-primaryColor"><span class="text-spanColor">Together, </span>We Can Build a Better Future</h4>
+                    <span class="pt-5 font-Satoshi font-bold text-24xl leading-36 text-primaryColor">Join Our Team Today!</span>
+                    <p class="font-Satoshi font-normal text-secondaryColor text-lg leading-8 pt-5">We believe in the power of teamwork and collaboration to provide comprehensive care tailored to each individual's needs.</p>
+                    <div class="lg:mt-12 mt-7">
+                        <a href="#" class="md:inline-block block text-center bg-btnBg rounded-10 py-4 px-9 font-Satoshi font-medium text-lg leading-8 hover:bg-hoverBg hover:transition hover:ease-in-out hover:duration-500">Join as a Doctor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Join Team Area End Here -->
+
+    <!-- Footer Area Start Here -->
+    <footer class="bg-footerBg m-5 rounded-20">
+        <div class="container">
+            <div
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="20"
+            data-aos-once="true"
+            class="lg:pt-32 pt-11 pb-5">
+                <div class="flex xl:flex-row flex-col justify-between xl:items-center">
+                    <h4 class="xl:max-w-580 w-full md:text-left text-center font-Satoshi font-bold lg:text-60xl text-[32px] leading-42 lg:leading-70 text-white">Start Your <span class="bg-btnBg bg-opacity-10 rounded-10 border border-btnBg px-1">Health</span> Journey Today!</h4>
+                    <div class="xl:mt-0 md:mt-12 mt-7">
+                        <a href="#" class="md:inline-block block text-center bg-btnBg rounded-10 lg:py-6 py-4 lg:px-24 px-10 font-Satoshi font-medium text-22xl leading-32 hover:bg-hoverBg hover:transition hover:ease-in-out hover:duration-500">Book an appointment</a>
+                    </div>
+                </div>
+                <hr class="border-[1px] border-white border-opacity-30 md:my-14 my-7"/>
+                <div class="flex xl:flex-row md:flex-col flex-col-reverse justify-between xl:gap-[205px] gap-10">
+                    <div class="xl:max-w-330 w-full">
+                        <a href="#">
+                            <img src="assets/img/footer-logo.svg" alt="">
+                        </a>
+                        <p class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80 pt-6">Your health, our priority—providing expert medical care with a personalized touch.</p>
+                    </div>
+                    <div class="flex md:flex-row flex-col justify-between md:gap-[90px] gap-10 xl:max-w-755 w-full">
+                        <div class="w-[120px]">
+                            <h4 class="font-Satoshi font-medium text-xl leading-8 text-white">Quick Links</h4>
+                            <ul class="mt-6 md:w-[105px] w-full">
+                                <li class=""><a href="index.html" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Home</a></li>
+                                <li class="pt-4"><a href="about.html" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">About</a></li>
+                                <li class="pt-4"><a href="services.html" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Services</a></li>
+                                <li class="pt-4"><a href="doctors.html" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Doctors</a></li>
+                                <li class="pt-4"><a href="blog.html" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-Satoshi font-medium text-xl leading-8 text-white">Departments</h4>
+                            <ul class="mt-6 md:w-[121px] w-full">
+                                <li class=""><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Internal medicine</a></li>
+                                <li class="pt-4"><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Neurology</a></li>
+                                <li class="pt-4"><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Ophthalmology</a></li>
+                                <li class="pt-4"><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Urology</a></li>
+                                <li class="pt-4"><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Orthopedics</a></li>
+                                <li class="pt-4"><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Radiology</a></li>
+                                <li class="pt-4"><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Cardiology</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-Satoshi font-medium text-xl leading-8 text-white">Location</h4>
+                            <ul class="mt-6">
+                                <li class=""><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80"><span class="text-opacity-100 font-semibold">Address:</span> 50 Seddon Road, (H3, Privatẹ Bag 3010, Hamilton), Seddon Road, Frankton, Hamilton 3204, New Zealand</a></li>
+                                <li class="pt-4"><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80"><span class="text-opacity-100 font-semibold">Phone:</span> +1 234 567 910</a></li>
+                                <li class="pt-4"><a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80"><span class="text-opacity-100 font-semibold">Email:</span> medicaldemo@gmail.com </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-[1px] border-white border-opacity-30 md:mt-14 mt-7 mb-5 rounded-xl"/>
+                <div class="flex lg:flex-row flex-col justify-between items-center lg:gap-0 gap-5">
+                    <p class="lg:block hidden font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">&copy; 2023 Company all rights reserved.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Terms & Conditions</a>
+                        <a href="#" class="font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">Privacy Policy</a>
+                    </div>
+                    <p class="lg:hidden block font-Satoshi font-normal text-base leading-7 text-white text-opacity-80">&copy; 2023 Company all rights reserved.</p>
+                    <div class="flex justify-between gap-4">
+                        <a href="https://www.facebook.com/" target="_blank" class="group">
+                            <svg class="rounded-100 border border-white border-opacity-30 group-hover:bg-btnBg group-hover:transition group-hover:ease-in-out group-hover:duration-500" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M21.4758 18.8746L21.8908 16.341H19.2968V14.6969C19.2968 14.0039 19.659 13.3279 20.8209 13.3279H22V11.1711C22 11.1711 20.9301 11 19.9069 11C17.7708 11 16.3746 12.2136 16.3746 14.4103V16.3414H14V18.875H16.3746V25H19.2968V18.875L21.4758 18.8746Z" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="block group">
+                            <svg class="rounded-100 border border-white border-opacity-30 group-hover:bg-btnBg group-hover:transition group-hover:ease-in-out group-hover:duration-500" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M18.0001 11C16.099 11 15.8606 11.0081 15.114 11.0421C14.3689 11.0761 13.86 11.1945 13.4148 11.3675C12.9544 11.5464 12.5641 11.7857 12.1749 12.1749C11.7857 12.564 11.5464 12.9545 11.3675 13.4148C11.1944 13.86 11.0761 14.3689 11.0421 15.114C11.008 15.8606 11 16.099 11 18.0001C11 19.9012 11.008 20.1396 11.0421 20.8863C11.0761 21.6313 11.1944 22.1402 11.3675 22.5854C11.5464 23.0458 11.7858 23.4361 12.1749 23.8253C12.5641 24.2145 12.9544 24.4539 13.4148 24.6328C13.86 24.8058 14.3689 24.9241 15.114 24.9581C15.8606 24.9922 16.099 25.0002 18.0001 25.0002C19.9012 25.0002 20.1396 24.9922 20.8863 24.9581C21.6313 24.9241 22.1402 24.8058 22.5854 24.6328C23.0458 24.4539 23.4361 24.2145 23.8253 23.8253C24.2145 23.4361 24.4539 23.0458 24.6328 22.5854C24.8058 22.1402 24.9241 21.6313 24.9581 20.8863C24.9922 20.1396 25.0002 19.9012 25.0002 18.0001C25.0002 16.099 24.9922 15.8606 24.9581 15.114C24.9241 14.3689 24.8058 13.86 24.6328 13.4148C24.4539 12.9545 24.2145 12.564 23.8253 12.1749C23.4361 11.7857 23.0458 11.5464 22.5854 11.3675C22.1402 11.1945 21.6313 11.0761 20.8863 11.0421C20.1396 11.0081 19.9012 11 18.0001 11ZM18.0001 12.2613C19.8692 12.2613 20.0906 12.2684 20.8288 12.3021C21.5113 12.3332 21.8819 12.4473 22.1286 12.5431C22.4553 12.6701 22.6885 12.8218 22.9335 13.0667C23.1784 13.3117 23.3301 13.5449 23.4571 13.8716C23.553 14.1183 23.667 14.489 23.6981 15.1715C23.7318 15.9096 23.739 16.131 23.739 18.0001C23.739 19.8692 23.7318 20.0906 23.6981 20.8288C23.667 21.5113 23.553 21.8819 23.4571 22.1286C23.3301 22.4553 23.1784 22.6885 22.9335 22.9335C22.6885 23.1784 22.4553 23.3301 22.1286 23.4571C21.8819 23.553 21.5113 23.667 20.8288 23.6981C20.0907 23.7318 19.8694 23.739 18.0001 23.739C16.1309 23.739 15.9095 23.7318 15.1715 23.6981C14.4889 23.667 14.1183 23.553 13.8717 23.4571C13.5449 23.3301 13.3117 23.1784 13.0668 22.9335C12.8218 22.6885 12.6701 22.4553 12.5431 22.1286C12.4473 21.8819 12.3332 21.5113 12.3021 20.8288C12.2684 20.0906 12.2613 19.8692 12.2613 18.0001C12.2613 16.131 12.2684 15.9096 12.3021 15.1715C12.3332 14.4889 12.4473 14.1183 12.5431 13.8717C12.6701 13.5449 12.8218 13.3117 13.0667 13.0668C13.3117 12.8218 13.5449 12.6701 13.8716 12.5431C14.1183 12.4473 14.489 12.3332 15.1715 12.3021C15.9096 12.2684 16.131 12.2613 18.0001 12.2613" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                                <path d="M18.0004 20.3339C16.7117 20.3339 15.667 19.2892 15.667 18.0006C15.667 16.7118 16.7117 15.6672 18.0004 15.6672C19.2891 15.6672 20.3338 16.7118 20.3338 18.0006C20.3338 19.2892 19.2891 20.3339 18.0004 20.3339ZM18.0004 14.4059C16.0151 14.4059 14.4058 16.0152 14.4058 18.0006C14.4058 19.9858 16.0151 21.5952 18.0004 21.5952C19.9857 21.5952 21.5951 19.9858 21.5951 18.0006C21.5951 16.0152 19.9857 14.4059 18.0004 14.4059ZM22.5771 14.2639C22.5771 14.7278 22.201 15.1039 21.7371 15.1039C21.2732 15.1039 20.8971 14.7278 20.8971 14.2639C20.8971 13.7999 21.2732 13.4238 21.7371 13.4238C22.201 13.4238 22.5771 13.7999 22.5771 14.2639Z" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="block group">
+                            <svg class="rounded-100 border border-white border-opacity-30 group-hover:bg-btnBg group-hover:transition group-hover:ease-in-out group-hover:duration-500" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M25 13.4205C24.4758 13.6655 23.9197 13.8263 23.3503 13.8975C23.9434 13.5226 24.3988 12.9289 24.6132 12.2215C24.0494 12.5744 23.4326 12.823 22.7893 12.9567C22.2654 12.3679 21.5189 12 20.6928 12C19.1065 12 17.8204 13.3564 17.8204 15.0293C17.8204 15.2668 17.8458 15.498 17.8948 15.7198C15.5077 15.5934 13.3913 14.3874 11.9746 12.5545C11.7274 13.002 11.5858 13.5224 11.5858 14.0775C11.5858 15.1285 12.0929 16.0557 12.8635 16.599C12.4074 16.584 11.9613 16.454 11.5625 16.2201C11.5624 16.2328 11.5624 16.2454 11.5624 16.2582C11.5624 17.726 12.5524 18.9504 13.8663 19.2287C13.4434 19.35 12.9997 19.3678 12.5693 19.2806C12.9347 20.4841 13.9955 21.3599 15.2523 21.3845C14.2693 22.1969 13.0308 22.6813 11.6852 22.6813C11.4533 22.6813 11.2247 22.6669 11 22.6389C12.2711 23.4985 13.7809 24 15.4029 24C20.6861 24 23.5751 19.3838 23.5751 15.3807C23.5751 15.2493 23.5723 15.1186 23.5668 14.9887C24.1291 14.56 24.6144 14.0289 25 13.4205Z" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                            </svg>
+                            
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="block group">
+                            <svg class="rounded-100 border border-white border-opacity-30 group-hover:bg-btnBg group-hover:transition group-hover:ease-in-out group-hover:duration-500" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2003 15.8783H18.8001V17.1733C19.1746 16.4285 20.135 15.7593 21.5777 15.7593C24.3434 15.7593 25 17.2419 25 19.9621V25H22.2V20.5816C22.2 19.0325 21.8255 18.1589 20.8721 18.1589C19.5498 18.1589 19.0003 19.1004 19.0003 20.5809V25H16.2003V15.8783ZM11.399 24.881H14.199V15.7593H11.399V24.881ZM14.6001 12.785C14.6002 13.0197 14.5537 13.2521 14.4632 13.4686C14.3727 13.6852 14.2401 13.8816 14.073 14.0464C13.7345 14.3828 13.2763 14.5712 12.799 14.57C12.3226 14.5697 11.8654 14.3818 11.5264 14.0471C11.3599 13.8817 11.2278 13.6851 11.1374 13.4685C11.0471 13.2519 11.0004 13.0197 11 12.785C11 12.3111 11.189 11.8575 11.5271 11.5229C11.8658 11.1877 12.3232 10.9998 12.7997 11C13.2771 11 13.7349 11.1883 14.073 11.5229C14.4104 11.8575 14.6001 12.3111 14.6001 12.785Z" fill="white" class="group-hover:fill-primaryColor group-hover:transition group-hover:ease-in-out group-hover:duration-500"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End Here -->
+
+    <script src="assets/js/alpine.min.js"  defer></script>
+
+    <script src="assets/js/slider.js"></script>
+
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/aos_script.js"></script>
+</body>
+</html>
